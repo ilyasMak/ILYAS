@@ -12,27 +12,51 @@
 <body>
     <div class="PC">
    <div id="bare">
-   <div id="Ilyas_Logo"><img  src="ILYAS\ilyas lg.png" width="170" height="40" ></div> 
+   <div id="Ilyas_Logo"><img  src="C:\Users\pc\Desktop\ILYAS\ilyas lg.png" width="170" height="40" ></div> 
     <div id="parametres">
-       <button class="parametre" onclick="langues();"> <img src="ILYAS\eng.png" width="30" height="30"></button>
+       <button class="parametre" onclick="langues();"> <img src="C:\Users\pc\Desktop\ILYAS\eng.png" width="30" height="30"></button>
     <button class="parametre" onclick="mode()"> <i class="fa-sharp fa-solid fa-sun" style="color: #ff0000; font-size: 33px;"></i></button>
      </div>
      <div id="menuButtons">
-        <button class="menu"> Accueil <i class="fa-solid fa-home-user " style="color: #ff0000;"></i></button> 
-        <button class="menu"> Personnel <i class="fa-solid fa-user " style="color: #ff0000;"></i></button>
+        <button class="menu" onclick="Accueil()"> Accueil <i class="fa-solid fa-home-user " style="color: #ff0000;"></i></button> 
+        <button class="menu" onclick="Personnel()"> Personnel <i class="fa-solid fa-user " style="color: #ff0000;"></i></button>
         <button class="menu"> Professionnel <i class="fa-solid fa-user-tie " style="color: #ff0000;"></i> </button>
         <button class="menu"> Contact <i class="fa-solid fa-envelope " style="color: #ff0000;"></i></button>
         <button class="menu"> Tous <i class="fa-solid fa-reply-all " style="color: #ff0000;"></i> </button> 
     </div>
     </div>
 
-    <!----------------------------------->
+    <!----------------------------------------------------------------------------------------------------->
     <div id="accueil">
         <div>
-        <table class="IM">
+        <!--<table class="IM">
             <th id="IM1"><FONT COLOR="white" >Je Suis</FONT></th>
             <th class="IM2"> <FONT COLOR="red" >Ilyas</FONT></th>
-        </table>
+        </table>-->
+
+
+     <div class="wrapper">
+        <div class="static-txt"><strong>Je Suis</strong></div>
+        <ul class="dynamic-txts">
+            <li><span><strong>Ilyas</strong></span></li>
+            <li><span><strong>Développeur</strong></span></li>
+            <li><span><strong>Makhloul</strong></span></li>
+            <li><span><strong>Programmeur</strong></span></li>
+        </ul>
+     </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
 
         <p id="disc"><strong>Etudiant Ingénieur</strong> en Génie Informatique <br>   Ecole Nationale de Science Appliquée fés</p> <br>
         <div id="media">
@@ -79,35 +103,65 @@
     </div>
 
         <div id="ilyas_Pic">
-            <img src="ILYAS\ilyas.png" height="450" width="450" >
+            <img src="C:/Users/pc/Desktop/ILYAS/ilyas.png" height="450" width="450" >
         </div>
+        
     </div>
+
+
+<!------------------------------------------------------------------------------------------------------------------------>
+
+
+    <div id="personnel">
+
+        <h1 style="text-align: center; font-family: 'arial black', sans-serif; color:red ;">Personnel</h1>
+    </div>
+
+
+<!------------------------------------------------------------------------------------------------------------------------>
 
 </div>
     <div id="telephone">
 
 
         <div id="bare_Telephone">
-            <button onclick="langues()" id="langIconPN"> <img src="ILYAS\eng.png" width="25" height="25"></button>
+            <button onclick="langues()" id="langIconPN"> <img src="C:/Users/pc/Desktop/ILYAS/eng.png" width="25" height="25"></button>
             <button onclick="mode()" id="modeIconePH"> <i class="fa-sharp fa-solid fa-sun" style="color: #ff0000; font-size: 25px;"></i></button> 
             <div id="ilyasmakhloul"><p style="margin: 3px;"><strong>ILYAS MAKHLOUL</strong></p></div>
             <button onclick="menu();"><i class="fa-solid fa-bars fa-shake" style="color: #ff0000; font-size: 24px;"></i></button>
         </div>
       
         <div id="menu_telephone">
-          <div class="menuP"> Accueil<i class="fa-solid fa-house-user" style="color: #ff0000;"></i> </div> 
-           <div class="menuP">Personelle<i class="fa-solid fa-user " style="color: #ff0000;"></i> </div>
+          <div class="menuP" onclick="Accueil()"> Accueil<i class="fa-solid fa-house-user" style="color: #ff0000;"></i> </div> 
+           <div class="menuP"onclick="Personnel()">Personelle<i class="fa-solid fa-user " style="color: #ff0000;"></i> </div>
            <div class="menuP">Professionnel<i class="fa-solid fa-user-tie " style="color: #ff0000;"></i> </div>
            <div class="menuP">Contact<i class="fa-solid fa-envelope " style="color: #ff0000;"></i> </div>
            <div class="menuPF">Tous<i class="fa-solid fa-reply-all " style="color: #ff0000;"></i>  </div>
         </div>
 
         <div id="Accueil_telephone">
-           <div> <img src="ILYAS\ilyas.png" id="Ilyas_Phone"></div>
-           <div> <table  class="IMP">
+           <div> <img src="C:\Users\pc\Desktop\ILYAS\ilyas.png" id="Ilyas_Phone"></div>
+           <div> 
+            
+            
+            <!--
+            <table  class="IMP">
                 <th class="IM1P"><FONT COLOR="white" >Je Suis</FONT></th>
                 <th class="IM2P"> <FONT COLOR="red" >Ilyas</FONT></th>
-            </table> </div>
+            </table> -->
+        
+            <div class="wrapper">
+                <div class="static-txt"><strong>Je Suis</strong></div>
+                <ul class="dynamic-txts">
+                    <li><span><strong>Ilyas</strong></span></li>
+                    <li><span><strong>Développeur</strong></span></li>
+                    <li><span><strong>Makhloul</strong></span></li>
+                    <li><span><strong>Programmeur</strong></span></li>
+                </ul>
+             </div> 
+        
+        
+        </div>
          <div><p id="discP"><strong>Etudiant Ingénieur</strong> en Génie Informatique <br>   Ecole Nationale de Science Appliquée fés</p> 
          </div>
 
@@ -131,4 +185,6 @@
    </div>
 </body>
 <script src="ILYAS.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.1.2/fullpage.min.js"></script>
+
 </html>
