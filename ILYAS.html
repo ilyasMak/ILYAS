@@ -6,24 +6,23 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="ILYAS.css" rel="stylesheet">
     <script src="https://kit.fontawesome.com/dd3e77bb26.js" crossorigin="anonymous"></script>
-     <link rel="icon" type="image/x-icon" href="C:\Users\pc\Downloads\lg.png">
     <title>ILYAS Makhloul</title>
+    <link rel="icon" type="image/x-icon" href="C:\Users\pc\Downloads\lg.png">
 </head>
 <body>
     <div class="PC">
    <div id="bare">
    <div id="Ilyas_Logo"><img  src="ILYAS\ilyas lg.png" width="170" height="40" ></div> 
     <div id="parametres">
-       <button class="parametre"> <img src="ILYAS\eng.png" width="30" height="30"></button>
-    <button class="parametre"> <img src="ILYAS\sun.png"  width="30" height="30"></button>
-        
+       <button class="parametre" onclick="langues();"> <img src="ILYAS\eng.PNG" width="30" height="30"></button>
+    <button class="parametre" onclick="mode()"> <i class="fa-sharp fa-solid fa-sun" style="color: #ff0000; font-size: 33px;"></i></button>
      </div>
      <div id="menuButtons">
-        <button class="menu"> Accueil <i class="fa-solid fa-home-user fa-flip" style="color: #ff0000;"></i></button> 
-        <button class="menu"> Personnel <i class="fa-solid fa-user fa-flip" style="color: #ff0000;"></i></button>
-        <button class="menu"> Professionnel <i class="fa-solid fa-user-tie fa-flip" style="color: #ff0000;"></i> </button>
-        <button class="menu"> Contact <i class="fa-solid fa-envelope fa-flip" style="color: #ff0000;"></i></button>
-        <button class="menu"> Tous <i class="fa-solid fa-reply-all fa-flip" style="color: #ff0000;"></i> </button> 
+        <button class="menu"> Accueil <i class="fa-solid fa-home-user " style="color: #ff0000;"></i></button> 
+        <button class="menu"> Personnel <i class="fa-solid fa-user " style="color: #ff0000;"></i></button>
+        <button class="menu"> Professionnel <i class="fa-solid fa-user-tie " style="color: #ff0000;"></i> </button>
+        <button class="menu"> Contact <i class="fa-solid fa-envelope " style="color: #ff0000;"></i></button>
+        <button class="menu"> Tous <i class="fa-solid fa-reply-all " style="color: #ff0000;"></i> </button> 
     </div>
     </div>
 
@@ -31,7 +30,7 @@
     <div id="accueil">
         <div>
         <table class="IM">
-            <th class="IM1"><FONT COLOR="white" >Je Suis</FONT></th>
+            <th id="IM1"><FONT COLOR="white" >Je Suis</FONT></th>
             <th class="IM2"> <FONT COLOR="red" >Ilyas</FONT></th>
         </table>
 
@@ -67,7 +66,7 @@
                     
                     
         </div>
-        <a href="ILYAS\CV ILYAS Makhloul.pdf" class="cv"><strong>Télecharger CV</strong></a>
+        <a href="" class="cv"><strong>Télecharger CV</strong></a>
     </div>
 
         <div id="ilyas_Pic">
@@ -80,8 +79,8 @@
 
 
         <div id="bare_Telephone">
-            <button > <img src="ILYAS\eng.png" width="25" height="25"></button>
-            <button > <img src="ILYAS\sun.png"  width="30" height="30"></button> 
+            <button onclick="langues()" id="langIconPN"> <img src="ILYAS\eng.PNG" width="25" height="25"></button>
+            <button onclick="mode()" id="modeIconePH"> <i class="fa-sharp fa-solid fa-sun" style="color: #ff0000; font-size: 25px;"></i></button> 
             <div id="ilyasmakhloul"><p style="margin: 3px;"><strong>ILYAS MAKHLOUL</strong></p></div>
             <button onclick="menu();"><i class="fa-solid fa-bars fa-shake" style="color: #ff0000; font-size: 24px;"></i></button>
         </div>
@@ -100,7 +99,7 @@
                 <th class="IM1P"><FONT COLOR="white" >Je Suis</FONT></th>
                 <th class="IM2P"> <FONT COLOR="red" >Ilyas</FONT></th>
             </table> </div>
-         <div><p id="disc"><strong>Etudiant Ingénieur</strong> en Génie Informatique <br>   Ecole Nationale de Science Appliquée fés</p> 
+         <div><p id="discP"><strong>Etudiant Ingénieur</strong> en Génie Informatique <br>   Ecole Nationale de Science Appliquée fés</p> 
          </div>
 
           
@@ -122,7 +121,7 @@
 
 
             </div>  
-            <a href="ILYAS\CV ILYAS Makhloul.pdf" class="cv"><strong>Télecharger CV</strong></a>
+            <a href="" class="cv"><strong>Télecharger CV</strong></a>
         </div>
 
         
