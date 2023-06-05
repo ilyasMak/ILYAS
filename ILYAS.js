@@ -174,8 +174,8 @@ function langues(){
     });
   });
           //--------------------------------------
-        parametre[0].innerHTML='<img src="C:/Users/pc/Desktop/ILYAS/france.png" width="30" height="30"></img>';
-        langIcomPH.innerHTML='<img src="C:/Users/pc/Desktop/ILYAS/france.png" width="25" height="25"></img>';
+        parametre[0].innerHTML='<img src="ILYAS/france.png" width="30" height="30"></img>';
+        langIcomPH.innerHTML='<img src="ILYAS/france.png" width="25" height="25"></img>';
         //--------------------
         elements.forEach(function(element) {
             element.innerHTML = "<strong>I'm</strong>";
@@ -239,13 +239,13 @@ function langues(){
 
 
         
-        parametre[0].innerHTML='<img src="C:/Users/pc/Desktop/ILYAS/eng.png" width="30" height="30"></img>';
+        parametre[0].innerHTML='<img src="ILYAS/eng.png" width="30" height="30"></img>';
         //-------------------------
         elements.forEach(function(element) {
             element.innerHTML = "<strong>Je Suis</strong>";
           });
           //----------------------------
-        langIcomPH.innerHTML='<img src="C:/Users/pc/Desktop/ILYAS/eng.png" width="25" height="25"></img>';
+        langIcomPH.innerHTML='<img src="ILYAS/eng.png" width="25" height="25"></img>';
       
         
       
