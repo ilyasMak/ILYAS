@@ -1,6 +1,6 @@
 
 body{
-    background-color : #15202B; 
+    background-color : rgb(22, 33, 49); 
 }
 
 #bare{
@@ -45,6 +45,8 @@ button{
 }
 
 .IM{
+    position: relative;
+    margin-top: 2.4rem;
     font-size: 8rem;
     font-family :Tahoma ;
 }
@@ -267,10 +269,12 @@ button{
 .IM2P{
     text-shadow: 1px 1px 20px red;
 }
-#disc{
+#discP{
     position: relative;
     top: -2.5rem;
-    font-size: 1rem;
+    font-size: 0.9rem;
+    color: white;
+    font-family :Tahoma ;
 }
 .cv{
     position: relative;
@@ -297,7 +301,7 @@ button{
    color: white;
    max-height : 0 ;
 overflow : hidden ;
-transition : max-height 0.7s ease-out ;
+transition : max-height 0.3s ease-out ;
 }
 
 #menu_telephone.show{
