@@ -88,7 +88,7 @@ function langues(){
 
     if(cmpt3%2==1){
         parametre[0].innerHTML='<img src="ILYAS/france.png" width="30" height="30"></img>';
-        langIcomPH.innerHTML='<img src="ILYAS/france.png" width="25" height="25">'
+        langIcomPH.innerHTML='<img src="ILYAS/france.png" width="25" height="25"></img>';
         textElement.setAttribute("data-text", "I'm");
         textElementPN.setAttribute("data-text", "I'm");
     if(cmpt2%2==1){
@@ -126,7 +126,7 @@ function langues(){
     if(cmpt3%2==0){
         parametre[0].innerHTML='<img src="ILYAS/eng.png" width="30" height="30"></img>';
         
-        langIcomPH.innerHTML='<img src="ILYAS/eng.png" width="25" height="25">'
+        langIcomPH.innerHTML='<img src="ILYAS/eng.png" width="25" height="25"></img>';
         textElement.setAttribute("data-text", "Je Suis");
         textElementPN.setAttribute("data-text", "Je Suis");
         if(cmpt2%2==1){
