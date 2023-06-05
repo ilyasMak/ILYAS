@@ -2,6 +2,83 @@
 body{
     background-color : rgb(22, 33, 49); 
 }
+.wrapper {
+    display: inline-flex;
+    font-family: tahoma;
+    position: relative;
+    top : 5vh;
+    
+}
+
+.wrapper .static-txt {
+    color: #fff;
+    font-size: 80px;
+    font-weight: 400;
+}
+
+.wrapper .dynamic-txts {
+    margin-left: 15px;
+    height: 85px;
+    line-height: 90px;
+    overflow : hidden;
+}
+
+.dynamic-txts li {
+    color: red;
+    list-style: none;
+    font-size: 80px;
+    font-weight: 500;
+    position: relative;
+    top: -2vh;
+    animation: slide 6s steps(4) infinite;
+    
+}
+
+@keyframes slide {
+    100% {
+        top: -370px;
+    }
+}
+
+.dynamic-txts li span {
+    position: relative;
+}
+
+.dynamic-txts li span::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background: rgb(22, 33, 49); ;
+    border-left: 4px solid red;
+    animation: typing 1.5s steps(15) infinite;
+}
+
+  .dynamic-txts.highlight li span::after {
+    background-color: rgb(181, 214, 228);
+}
+
+@keyframes typing {
+    40%,
+    60% {
+        left: calc(100% + 30px);
+    }
+    100% {
+        left: 0;
+    }
+}
+
+
+
+
+
+
+
+
+#personnel{
+    display: none;
+}
 
 #bare{
     background-color : #15202B;
@@ -44,15 +121,7 @@ button{
     padding:5%;
 }
 
-.IM{
-    position: relative;
-    margin-top: 2.4rem;
-    font-size: 8rem;
-    font-family :Tahoma ;
-}
-.IM2{
-    text-shadow: 1px 1px 20px red;
-}
+
 
 #disc{
     color: white;
@@ -231,28 +300,68 @@ button{
     height : 90% ; 
     width :95% ;
 }
-.IMP{
-    font-size: 2rem;
-    font-family :Tahoma ;
+
+
+.wrapper{
     position: relative;
-    top:-1.5rem ;
-    height : 10px;
+    top : -3.5vh;
 }
-.IM2P{
-    text-shadow: 1px 1px 20px red;
+.wrapper .static-txt {
+    position: relative;
+    font-size: 1.5rem;
+    font-weight: 100;
+    margin-left : 3rem ; 
+    top : 1.3vh;
+}
+
+.wrapper .dynamic-txts {
+    margin-left: 15px;
+    height: 1.5rem;
+    line-height: 3rem;
+    overflow : hidden;
+}
+
+
+
+.wrapper .dynamic-txts li {
+    font-size: 1.5rem;
+    position: relative;
+    top: 0.5vh;
+    margin-left: -2.5rem;
+}
+@keyframes slide {
+    100% {
+        top: -12rem;
+    }
+}
+
+.dynamic-txts li span {
+    position: relative;
+    top : -3vh;
+    height: 2.5rem;
+}
+.dynamic-txts li span::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    height: 130%;
+    width: 100%;
+    background: rgb(22, 33, 49); ;
+    border-left: 4px solid red;
+    animation: typing 1.5s steps(15) infinite;
 }
 #discP{
     position: relative;
-    top: -2.5rem;
+    top: -3.5rem;
     font-size: 0.9rem;
     color: white;
     font-family :Tahoma ;
 }
 .cv{
     position: relative;
-    top: 0;
+    top: -0.5vh ; 
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-
+    height : 25px ; 
 }
 
 /*------------------------------------*/
@@ -344,10 +453,12 @@ transition : max-height 0.7s ease-in ;
 .menuP{
     padding :  0 0  0 1rem ; 
     border-bottom: 1px solid white ;
+    transition: all 0.3s;
 }
 
 .menuPF{
     padding :  0 0  0 1rem ; 
+    transition: all 0.3s;
 }
 
   }
