@@ -1,0 +1,319 @@
+
+body{
+    background-color : #15202B; 
+}
+
+#bare{
+    background-color : #15202B;
+    color:white;
+    display : flex ;
+    justify-content: flex-end;
+    border-bottom: solid 2px black;}
+button{
+    background-color: transparent;
+    border : none
+}
+.menu{
+  
+    color: white;
+    font-size: 2rem;
+   
+    border :none;
+    transition: all 1s ;
+ 
+}
+.menu:hover{
+    border-bottom: 5px solid red ;
+    font-size: 2.1rem;
+    color: red;
+    text-shadow: 1px 1px 20px red;
+}
+#parametres{
+  width : 20%;
+}
+
+#Ilyas_Logo{
+    width:20%
+}
+
+
+#accueil{
+    display: flex;
+    align-items : center;
+    justify-content: space-around;
+    padding:5%;
+}
+
+.IM{
+    font-size: 8rem;
+    font-family :Tahoma ;
+}
+.IM2{
+    text-shadow: 1px 1px 20px red;
+}
+
+#disc{
+    color: white;
+    font-size: 2rem;
+    font-family :Tahoma ;
+}
+
+
+.wrapper .button{
+   
+    display: inline-block;
+    
+   height: 60px;
+   width :60px ; 
+   margin : 0 5px ; 
+ background: #fff;
+ border-radius: 50px;
+ cursor: pointer;
+ box-shadow: 0px 10px 10px rgba(0,0,0,0.1);
+ transition : all 0.3s ease-out ; 
+ overflow: hidden;
+}
+
+.wrapper .button .icon{
+    display: inline-block;
+    height : 60px ; 
+    width : 60px ; 
+    border-radius: 50px;
+    text-align: center;
+    box-sizing: border-box;
+    line-height : 60px ; 
+
+}
+
+.wrapper .button:nth-child(1):hover{
+    width : 150px ; 
+}
+.wrapper .button:nth-child(2):hover{
+    width : 210px ; 
+}
+.wrapper .button:nth-child(3):hover{
+    width : 270px ; 
+}
+.wrapper .button:nth-child(4):hover{
+    width : 250px ; 
+}
+
+
+.wrapper .button:nth-child(1):hover .icon{
+    background: #4267B2;
+}
+.wrapper .button:nth-child(5):hover .icon{
+    background: #E1306C;
+}
+.wrapper .button:nth-child(2):hover .icon{
+    background: #1DA1F2;
+}
+.wrapper .button:nth-child(3):hover .icon{
+    background: #0039aa;
+}
+.wrapper .button:nth-child(4):hover .icon{
+    background: #00a126;
+}
+
+
+
+
+
+.wrapper .button:nth-child(1) span{
+    color: #4267B2 ;
+    
+}
+.wrapper .button:nth-child(5) span{
+    color: #E1306C ;
+}
+.wrapper .button:nth-child(2) span{
+    color: #1DA1F2;
+}
+.wrapper .button:nth-child(4) span{
+    color: #00a126;
+}
+.wrapper .button:nth-child(3) span{
+    color: #0039aa;
+}
+
+
+
+
+.wrapper .button .icon i{
+    font-size: 25px;
+    line-height : 60px ; 
+}
+.wrapper .button span{
+    font-size: 20px;
+    line-height:10px ; 
+    margin-left : 10px ; 
+    
+}
+.lien1{
+    text-decoration: none;
+    color: #4267B2 ;
+}
+.lien2{
+    text-decoration: none;
+    color: #E1306C ;
+}
+.lien3{
+    text-decoration: none;
+    color: #1DA1F2; ;
+}
+.lien4{
+    text-decoration: none;
+    color: #0039aa;
+}
+   .cv{
+   position :relative ;
+   top: 4vh ;
+   color : white ;
+   box-shadow :5px 12px 35px black ;
+   text-decoration : none ;
+   background-color : black ;
+   font-size :20px ;
+   padding : 16px 35px ;
+   border-radius : 35px ;
+   border : 2px solid grey ;
+   letter-spacing : 2px ; 
+   transition : all 0.3s ; 
+}
+.cv:hover{
+    color: black;
+    background-color: white;
+}
+
+#telephone{
+    display: none;
+}
+
+@media only screen and (max-width: 500px) {
+    .PC {
+      display: none;
+    }
+    
+    body {
+      overflow-x: hidden; /* Masque le défilement horizontal */
+      overflow-y: auto; /* Affiche le défilement vertical si nécessaire */
+      width : 100% ; 
+    }
+    #telephone {
+        display: block;
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+      }
+  
+    #bare_Telephone {
+      padding: 1px;
+      background-color: #15202B;
+      color: white;
+      display: flex;
+      border-bottom: solid 2px black;
+      width: 100%;
+      height: 3rem;
+      box-sizing: border-box; /* Inclut le padding dans la largeur totale */
+    }
+    #ilyasmakhloul{
+        font-size: 24px ;
+        
+    font-family :Tahoma ;
+    top : 0;
+    width : 70%;
+    text-align: center;
+    
+    }
+    .wrapper .button:nth-child(1):hover{
+        width : 60px ; 
+    }
+    .wrapper .button:nth-child(2):hover{
+        width : 60px ; 
+    }
+    .wrapper .button:nth-child(3):hover{
+        width :60px ; 
+    }
+    .wrapper .button:nth-child(4):hover{
+        width : 60px ; 
+    }
+
+#Accueil_telephone{
+    padding: 10px;
+    width : 85% ; 
+    height: 36rem;
+  display: flex;
+  justify-content: center;
+  box-shadow: 20px 20px 50px rgba(0,0,0,0.5);
+  border-radius: 15px;
+  /*background: rgba(255,255,255,0.1);*/
+  backdrop-filter: blur(10px );
+  flex-wrap: wrap;
+  margin-left: 5%;
+  margin-top : 5%;
+}
+
+#Ilyas_Phone{
+    height : 90% ; 
+    width :95% ;
+}
+.IMP{
+    font-size: 2rem;
+    font-family :Tahoma ;
+    position: relative;
+    top:-1.5rem ;
+    height : 10px;
+}
+.IM2P{
+    text-shadow: 1px 1px 20px red;
+}
+#disc{
+    position: relative;
+    top: -2.5rem;
+    font-size: 1rem;
+}
+.cv{
+    position: relative;
+    top : -2rem ;
+
+}
+.wrapper{
+    position: relative;
+    top : -2.5rem ;
+
+}
+
+
+#menu_telephone{
+    border : solid 1px black ; 
+    box-shadow: 20px 20px 50px rgba(0,0,0,0.5);
+   position: absolute;
+   z-index: 100;
+   right: 1%;
+   background-color: #15202B;
+   border-radius: 10%;
+   font-size: 1.5rem;
+   font-family: tahoma;
+   color: white;
+   max-height : 0 ;
+overflow : hidden ;
+transition : max-height 0.7s ease-out ;
+}
+
+#menu_telephone.show{
+    max-height : 1300px ;
+max-width : 2000px ;
+transition : max-height 0.7s ease-in ;
+}
+.menuP{
+    padding :  0 0  0 1rem ; 
+    border-bottom: 1px solid white ;
+}
+
+.menuPF{
+    padding :  0 0  0 1rem ; 
+}
+
+  }
+ 
+
