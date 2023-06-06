@@ -9,6 +9,11 @@ body{
     top : 5vh;
     
 }
+#ilyas_Pic{
+    width :450px ; 
+    height : 450px;
+    transition: all 1s ;
+}
 
 .wrapper .static-txt {
     color: #fff;
@@ -89,7 +94,7 @@ body{
     background-color : #15202B;
     color:white;
     display : flex ;
-    justify-content: flex-end;
+    justify-content: space-between;
     border-bottom: solid 2px black;}
 button{
     background-color: transparent;
@@ -251,23 +256,37 @@ button{
     display: none;
 }
 /************************************************************************/
-@media (min-width: 1260px) and (max-width: 1480px) {
+@media (min-width: 1260px) and (max-width: 1500px) {
     /* Styles pour les écrans de largeur maximale de 480px */
+    .parametre :first-child{
+        width : 27px ;
+        height : 27px  ;
+  }
+  .parametre:last-child{
+    font-size: 20px;
+  }
+  #Ilyas_Logo{
+    width : 120px ;
+    height : auto ;
+  }
     #ilyas_Pic{
         width :400px ; 
-        height : 400px ;
+        height : auto ;
     }
     .menu{
-        font-size:1.4rem ; 
+        font-size:1.5rem ; 
+    }
+    .menu:hover{
+        font-size:1.7rem ; 
     }
 
     .wrapper .static-txt {
-        font-size: 45px;
+        font-size: 50px;
         position: relative;
         top:2.5vh;
     }
     .dynamic-txts li {
-        font-size: 45px;
+        font-size: 50px;
     }
     .dynamic-txts li span::after {
         height: 120%;
@@ -281,14 +300,24 @@ button{
 /************************************************************************/
 @media (min-width: 1155px) and (max-width: 1260px) {
     /* Styles pour les écrans de largeur maximale de 480px */
-    #bare{
-        height:40px ;}
+    .parametre :first-child{
+        width : 25px ;
+        height : 25px  ;
+  }
+ 
+  #Ilyas_Logo{
+    width : 100px ;
+    height : auto ;
+  }
     #ilyas_Pic{
-        width :350px ; 
-        height : 350px 
+        width :40% ; 
+        height : auto ; 
     }
     .menu{
         font-size:1.5rem ; 
+    }
+    .menu:hover{
+        font-size:1.7rem ; 
     }
 
     .wrapper .static-txt {
@@ -311,12 +340,23 @@ button{
 /************************************************************************/
 @media (min-width: 1062px) and (max-width: 1162px) {
     /* Styles pour les écrans de largeur maximale de 480px */
+    .parametre :first-child{
+        width : 22px ;
+        height : 22px  ;
+  }
+  #Ilyas_Logo{
+    width : 80px ;
+    height : auto ;
+  }
     #ilyas_Pic{
-        width :250px ; 
-        height : 250px;
+        width :350px ; 
+        height : 350px;
     }
     .menu{
         font-size:1.2rem ; 
+    }
+    .menu:hover{
+        font-size:1.4rem ; 
     }
 
     .wrapper .static-txt {
@@ -340,12 +380,23 @@ button{
 /************************************************************************/
 @media (min-width: 964px) and (max-width: 1062px) {
     /* Styles pour les écrans de largeur maximale de 480px */
+    .parametre :first-child{
+        width : 22px ;
+        height : 22px  ;
+  }
+  #Ilyas_Logo{
+    width : 70px ;
+    height : auto ;
+  }
     #ilyas_Pic{
-        width :40% ; 
-        height :    auto;
+        width :330px ; 
+        height : 330px;
     }
     .menu{
         font-size:1rem ; 
+    }
+    .menu:hover{
+        font-size:1.2rem ; 
     }
 
     .wrapper .static-txt {
@@ -369,12 +420,23 @@ button{
   /************************************************************************/
 @media (min-width: 860px) and (max-width: 964px) {
     /* Styles pour les écrans de largeur maximale de 480px */
+    .parametre :first-child{
+        width : 22px ;
+        height : 22px  ;
+  }
+  #Ilyas_Logo{
+    width : 60px ;
+    height : auto ;
+  }
     #ilyas_Pic{
-        width :50% ; 
-        height : auto;
+        width :300px ; 
+        height : 300px;
     }
     .menu{
         font-size:1rem ; 
+    }
+    .menu:hover{
+        font-size:1.2rem ; 
     }
 
     .wrapper .static-txt {
@@ -399,12 +461,23 @@ button{
   /************************************************************************/
 @media (min-width: 829px) and (max-width: 860px) {
     /* Styles pour les écrans de largeur maximale de 480px */
+    .parametre :first-child{
+        width : 22px ;
+        height : 22px  ;
+  }
+  #Ilyas_Logo{
+    width : 60px ;
+    height : auto ;
+  }
     #ilyas_Pic{
-        width :50% ; 
-        height : auto ;
+        width :280px ; 
+        height : 280px;
     }
     .menu{
         font-size:0.8rem ; 
+    }
+    .menu:hover{
+        font-size:1rem ; 
     }
 
     .wrapper .static-txt {
@@ -429,12 +502,23 @@ button{
    /************************************************************************/
 @media (min-width: 690px) and (max-width: 829px) {
     /* Styles pour les écrans de largeur maximale de 480px */
+    .parametre :first-child{
+        width : 22px ;
+        height : 22px  ;
+  }
+  #Ilyas_Logo{
+    width : 60px ;
+    height : auto ;
+  }
     #ilyas_Pic{
-        width :50% ; 
-        height : auto ;
+        width :260px ; 
+        height : 260px;
     }
     .menu{
         font-size:0.8rem ; 
+    }
+    .menu:hover{
+        font-size:1rem ; 
     }
 
     .wrapper .static-txt {
@@ -459,12 +543,23 @@ button{
 
   @media (min-width: 540px) and (max-width: 690px) {
     /* Styles pour les écrans de largeur maximale de 480px */
+    .parametre :first-child{
+        width : 20px ;
+        height : 20px  ;
+  }
+  #Ilyas_Logo{
+    width : 60px ;
+    height : auto ;
+  }
     #ilyas_Pic{
         width :40% ; 
         height : auto ;
     }
     .menu{
         font-size:0.7rem ; 
+    }
+    .menu:hover{
+        font-size:0.9rem ; 
     }
 
     .wrapper .static-txt {
@@ -487,12 +582,23 @@ button{
   }
   @media (min-width: 500px) and (max-width: 540px) {
     /* Styles pour les écrans de largeur maximale de 480px */
+    .parametre :first-child{
+        width : 20px ;
+        height : 20px  ;
+  }
     #ilyas_Pic{
         width :30% ; 
         height : auto ;
     }
+    #Ilyas_Logo{
+        width : 60px ;
+        height : auto ;
+      }
     .menu{
         font-size:0.7rem ; 
+    }
+    .menu:hover{
+        font-size:0.9rem ; 
     }
 
     .wrapper .static-txt {
@@ -735,5 +841,6 @@ transition : max-height 0.7s ease-in ;
 }
 
   }
+ 
  
 
