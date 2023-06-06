@@ -25,6 +25,7 @@ body{
 
 .dynamic-txts li {
     color: red;
+    text-shadow: 1px 1px 20px red;
     list-style: none;
     font-size: 80px;
     font-weight: 500;
@@ -311,12 +312,12 @@ button{
     font-size: 1.5rem;
     font-weight: 100;
     margin-left : 3rem ; 
-    top : 1.3vh;
+    top : 1.5vh;
 }
 
 .wrapper .dynamic-txts {
     margin-left: 15px;
-    height: 1.5rem;
+    height: 2rem;
     line-height: 3rem;
     overflow : hidden;
 }
@@ -326,7 +327,7 @@ button{
 .wrapper .dynamic-txts li {
     font-size: 1.5rem;
     position: relative;
-    top: 0.5vh;
+    top: 1vh;
     margin-left: -2.5rem;
 }
 @keyframes slide {
@@ -338,13 +339,13 @@ button{
 .dynamic-txts li span {
     position: relative;
     top : -3vh;
-    height: 2.5rem;
+    height: 3rem;
 }
 .dynamic-txts li span::after {
     content: "";
     position: absolute;
     left: 0;
-    height: 130%;
+    height: 150%;
     width: 100%;
     background: rgb(22, 33, 49); ;
     border-left: 4px solid red;
@@ -352,7 +353,7 @@ button{
 }
 #discP{
     position: relative;
-    top: -3.5rem;
+    top: -4rem;
     font-size: 0.9rem;
     color: white;
     font-family :Tahoma ;
@@ -462,5 +463,6 @@ transition : max-height 0.7s ease-in ;
 }
 
   }
+ 
  
 
