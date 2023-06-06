@@ -14,6 +14,7 @@ body{
     color: #fff;
     font-size: 80px;
     font-weight: 400;
+    transition: all 1s;
 }
 
 .wrapper .dynamic-txts {
@@ -21,6 +22,7 @@ body{
     height: 85px;
     line-height: 90px;
     overflow : hidden;
+    transition: all 1s;
 }
 
 .dynamic-txts li {
@@ -32,7 +34,7 @@ body{
     position: relative;
     top: -2vh;
     animation: slide 6s steps(4) infinite;
-    
+    transition: all 1s;
 }
 
 @keyframes slide {
@@ -43,6 +45,7 @@ body{
 
 .dynamic-txts li span {
     position: relative;
+    transition: all 1s;
 }
 
 .dynamic-txts li span::after {
@@ -54,6 +57,7 @@ body{
     background: rgb(22, 33, 49); ;
     border-left: 4px solid red;
     animation: typing 1.5s steps(15) infinite;
+    transition: all 1s;
 }
 
   .dynamic-txts.highlight li span::after {
@@ -89,7 +93,8 @@ body{
     border-bottom: solid 2px black;}
 button{
     background-color: transparent;
-    border : none
+    border : none;
+    transition: all 1s;
 }
 .menu{
   
@@ -108,10 +113,12 @@ button{
 }
 #parametres{
   width : 20%;
+  transition: all 1s;
 }
 
 #Ilyas_Logo{
-    width:20%
+    width:20%;
+    transition: all 1s;
 }
 
 
@@ -128,6 +135,7 @@ button{
     color: white;
     font-size: 2rem;
     font-family :Tahoma ;
+    transition: all 1s;
 }
 
 
@@ -242,7 +250,271 @@ button{
 #telephone{
     display: none;
 }
+/************************************************************************/
+@media (min-width: 1260px) and (max-width: 1480px) {
+    /* Styles pour les écrans de largeur maximale de 480px */
+    #ilyas_Pic{
+        width :400px ; 
+        height : 400px ;
+    }
+    .menu{
+        font-size:1.4rem ; 
+    }
 
+    .wrapper .static-txt {
+        font-size: 45px;
+        position: relative;
+        top:2.5vh;
+    }
+    .dynamic-txts li {
+        font-size: 45px;
+    }
+    .dynamic-txts li span::after {
+        height: 120%;
+    }
+    #disc{
+        color: white;
+        font-size: 1.5rem;
+        font-family :Tahoma ;
+    }
+  }
+/************************************************************************/
+@media (min-width: 1155px) and (max-width: 1260px) {
+    /* Styles pour les écrans de largeur maximale de 480px */
+    #bare{
+        height:40px ;}
+    #ilyas_Pic{
+        width :350px ; 
+        height : 350px 
+    }
+    .menu{
+        font-size:1.5rem ; 
+    }
+
+    .wrapper .static-txt {
+        font-size: 50px;
+        position: relative;
+        top:2.5vh;
+    }
+    .dynamic-txts li {
+        font-size: 50px;
+    }
+    .dynamic-txts li span::after {
+        height: 120%;
+    }
+    #disc{
+        color: white;
+        font-size: 1.5rem;
+        font-family :Tahoma ;
+    }
+  }
+/************************************************************************/
+@media (min-width: 1062px) and (max-width: 1162px) {
+    /* Styles pour les écrans de largeur maximale de 480px */
+    #ilyas_Pic{
+        width :250px ; 
+        height : 250px;
+    }
+    .menu{
+        font-size:1.2rem ; 
+    }
+
+    .wrapper .static-txt {
+        font-size: 35px;
+        position: relative;
+        top:6vh;
+    }
+    .dynamic-txts li {
+        font-size: 35px;
+        top: 0.5vh;
+    }
+    .dynamic-txts li span::after {
+        height: 150%;
+    }
+    #disc{
+        color: white;
+        font-size: 1.4rem;
+        font-family :Tahoma ;
+    }
+  }
+/************************************************************************/
+@media (min-width: 964px) and (max-width: 1062px) {
+    /* Styles pour les écrans de largeur maximale de 480px */
+    #ilyas_Pic{
+        width :40% ; 
+        height :    auto;
+    }
+    .menu{
+        font-size:1rem ; 
+    }
+
+    .wrapper .static-txt {
+        font-size: 35px;
+        position: relative;
+        top:6vh;
+    }
+    .dynamic-txts li {
+        font-size: 35px;
+        top: 0.5vh;
+    }
+    .dynamic-txts li span::after {
+        height: 150%;
+    }
+    #disc{
+        color: white;
+        font-size: 1.4rem;
+        font-family :Tahoma ;
+    }
+  }
+  /************************************************************************/
+@media (min-width: 860px) and (max-width: 964px) {
+    /* Styles pour les écrans de largeur maximale de 480px */
+    #ilyas_Pic{
+        width :50% ; 
+        height : auto;
+    }
+    .menu{
+        font-size:1rem ; 
+    }
+
+    .wrapper .static-txt {
+        font-size: 31px;
+        position: relative;
+        top:6vh;
+    }
+    .dynamic-txts li {
+        font-size: 31px;
+        top: 0.5vh;
+    }
+    .dynamic-txts li span::after {
+        height: 170%;
+    }
+    #disc{
+        color: white;
+        font-size: 1rem;
+        font-family :Tahoma ;
+    }
+  }
+
+  /************************************************************************/
+@media (min-width: 829px) and (max-width: 860px) {
+    /* Styles pour les écrans de largeur maximale de 480px */
+    #ilyas_Pic{
+        width :50% ; 
+        height : auto ;
+    }
+    .menu{
+        font-size:0.8rem ; 
+    }
+
+    .wrapper .static-txt {
+        font-size: 30px;
+        position: relative;
+        top:6vh;
+    }
+    .dynamic-txts li {
+        font-size: 30px;
+        top: 0.5vh;
+    }
+    .dynamic-txts li span::after {
+        height: 170%;
+    }
+    #disc{
+        color: white;
+        font-size: 1rem;
+        font-family :Tahoma ;
+    }
+  }
+  /************************************************************************/
+   /************************************************************************/
+@media (min-width: 690px) and (max-width: 829px) {
+    /* Styles pour les écrans de largeur maximale de 480px */
+    #ilyas_Pic{
+        width :50% ; 
+        height : auto ;
+    }
+    .menu{
+        font-size:0.8rem ; 
+    }
+
+    .wrapper .static-txt {
+        font-size: 25px;
+        position: relative;
+        top:6vh;
+    }
+    .dynamic-txts li {
+        font-size: 25px;
+        top: 0.5vh;
+    }
+    .dynamic-txts li span::after {
+        height: 190%;
+    }
+    #disc{
+        color: white;
+        font-size: 1rem;
+        font-family :Tahoma ;
+    }
+  }
+
+
+  @media (min-width: 540px) and (max-width: 690px) {
+    /* Styles pour les écrans de largeur maximale de 480px */
+    #ilyas_Pic{
+        width :40% ; 
+        height : auto ;
+    }
+    .menu{
+        font-size:0.7rem ; 
+    }
+
+    .wrapper .static-txt {
+        font-size: 22px;
+        position: relative;
+        top:6vh;
+    }
+    .dynamic-txts li {
+        font-size: 22px;
+        top: 0.5vh;
+    }
+    .dynamic-txts li span::after {
+        height: 210%;
+    }
+    #disc{
+        color: white;
+        font-size: 0.7rem;
+        font-family :Tahoma ;
+    }
+  }
+  @media (min-width: 500px) and (max-width: 540px) {
+    /* Styles pour les écrans de largeur maximale de 480px */
+    #ilyas_Pic{
+        width :30% ; 
+        height : auto ;
+    }
+    .menu{
+        font-size:0.7rem ; 
+    }
+
+    .wrapper .static-txt {
+        font-size: 20px;
+        position: relative;
+        top:6vh;
+    }
+    .dynamic-txts li {
+        font-size: 20px;
+        top: 0.5vh;
+    }
+    .dynamic-txts li span::after {
+        height: 220%;
+    }
+    #disc{
+        color: white;
+        font-size: 0.7rem;
+        font-family :Tahoma ;
+    }
+  }
+/************************************************************************/
+/************************************************************************/
 @media only screen and (max-width: 500px) {
     .PC {
       display: none;
@@ -463,6 +735,5 @@ transition : max-height 0.7s ease-in ;
 }
 
   }
- 
  
 
